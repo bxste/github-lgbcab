@@ -18,22 +18,24 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a routerLink="Home" class="nav-link">Home</a>
+                    <a routerLink="home" class="nav-link">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a routerLink="About" class="nav-link">About</a>
+                    <a routerLink="about" class="nav-link">About</a>
                   </li>
                   <li class="nav-item">
-                    <a routerLink="About" class="nav-link">Education</a>
+                    <a routerLink="education" class="nav-link">Education</a>
                   </li>
                   <li class="nav-item">
-                    <a routerLink="About" class="nav-link">Skills</a>
+                    <a routerLink="skills" class="nav-link">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a routerLink="About" class="nav-link">References</a>
+                    <a routerLink="references" class="nav-link">References</a>
                   </li>
                   <li class="nav-item">
-                    <a routerLink="About" class="nav-link">Pagenotfound</a>
+                    <a routerLink="pagenotfound" class="nav-link"
+                      >Pagenotfound</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -58,6 +60,12 @@
         </div>
         <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
           <section>
+            <h1>
+              <div ng-app="myApp" ng-controller="myCtrl">
+                Name: <input ng-model="name" />
+                <h1>You entered: {{ name }}</h1>
+              </div>
+            </h1>
             <h1>
               <span>HI THERE</span>
               I’m Almario Guzman III <br />
